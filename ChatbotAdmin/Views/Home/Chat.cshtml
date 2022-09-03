@@ -1,34 +1,32 @@
-﻿
-@{
-    Layout = null;
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
-<head>
-    <title>Web Chat: Custom style options</title>
+  <head>
+  <title>Web Chat: Custom style options</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script crossorigin="anonymous"
-            src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script
+      crossorigin="anonymous"
+      src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"
+    ></script>
     <style>
-        html,
-        body {
-            height: 100%;
-        }
+      html,
+      body {
+         height: 100%;
+      }
 
-        body {
-            margin: 0;
-        }
+      body {
+        margin: 0;
+      }
 
-        #webchat {
-            height: 100%;
-            width: 100%;
-        }
+      #webchat {
+        height: 100%;
+        width: 100%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="webchat" role="main"></div>
     <script>
-
+	
 	// Create an HTTP request object.
 	var xhr = new XMLHttpRequest();
 	getToken();
@@ -38,7 +36,7 @@
 	function processResponse(e) {
 	  if (xhr.readyState == 4  && xhr.status == 200) {
 		var token = JSON.parse(xhr.responseText);
-
+		
 		const styleOptions = {
 			  bubbleBackground: 'rgba(0, 0, 255, .1)',
 			  bubbleFromUserBackground: 'rgba(0, 255, 0, .1)'
@@ -79,5 +77,5 @@
 	  return false;
 	}
     </script>
-</body>
+  </body>
 </html>
