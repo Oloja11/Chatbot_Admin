@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ChatbotAdmin.Models.OutboxMessage>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Inquiry Responses</h3>
+<hr />
+<br />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ReplyMessage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReplyDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceivedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReplyMessage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReplyDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceivedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderName)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "MessageDetails", new {  id=item.Id }) |
+                @Html.ActionLink("Delete", "DeleteOutboxMessage", new { id=item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

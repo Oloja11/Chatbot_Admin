@@ -1,0 +1,70 @@
+﻿@model ChatbotAdmin.Models.ClubUser
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h4>User Registration</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Register">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            
+            <div class="form-group">
+                <label asp-for="FirstName" class="control-label"></label>
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName" class="control-label"></label>
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-label"></label>
+                <input asp-for="PhoneNumber" class="form-control" />
+                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sex" class="control-label"></label>
+                <select id="Sex" name="Sex" class="form-control" asp-items="@(new SelectList(@ViewBag.Sex)) ">
+                </select>
+                <span asp-validation-for="Sex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfBirth" class="control-label"></label>
+                <input id="DateOfBirth" name="DateOfBirth" readonly="readonly" />
+                <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+            </div>            
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Cancel</a>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(function () {
+            $('#DateOfBirth').datepicker({
+                changeMonth: true,
+                changeYear: true,
+                format: "yyyy-mm-dd",
+                language: "en"
+            });
+        });
+    </script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

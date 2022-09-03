@@ -1,0 +1,83 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Chat: Custom style options</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script crossorigin="anonymous"
+            src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        #webchat {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="webchat" role="main"></div>
+    <script>
+
+	// Create an HTTP request object.
+	var xhr = new XMLHttpRequest();
+	getToken();
+	/*
+	  Process the response. Get the URL.
+	**/
+	function processResponse(e) {
+	  if (xhr.readyState == 4  && xhr.status == 200) {
+		var token = JSON.parse(xhr.responseText);
+
+		const styleOptions = {
+			  bubbleBackground: 'rgba(0, 0, 255, .1)',
+			  bubbleFromUserBackground: 'rgba(0, 255, 0, .1)'
+			};
+
+		window.WebChat.renderWebChat(
+			{
+			  directLine: window.WebChat.createDirectLine({
+				token: token
+			  }),
+			  styleOptions,
+			  locale: 'en-US'
+			},
+			document.getElementById('webchat')
+		  );
+		 document.querySelector('#webchat > *').focus();
+	  }
+	}
+
+	/*
+	  Request the token based on the bot secret.
+	**/
+	function getToken()
+	{
+
+	  var secret = 'f4_ObpIMlww.f8k5wRoiz_5CnEBMLymLOzoDJqk3n4cv3LI3se6NA1Y'
+
+	  // alert("The secret is " + secret);
+
+	  // Issue an HTTP request to generate the token from the secret.
+	  xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
+	  xhr.setRequestHeader('Authorization', 'BotConnector ' + secret);
+	  xhr.send();
+
+	  // Process the response asynchronously.
+	  xhr.onreadystatechange = processResponse;
+
+	  return false;
+	}
+    </script>
+</body>
+</html>

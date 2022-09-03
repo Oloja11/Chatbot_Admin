@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ChatbotAdmin.Models.ChatMessage>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Inbox</h3>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReceivedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Content )
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReceivedDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SenderName)
+            </td>
+            <td>
+                @Html.ActionLink("Read", "MessageDetails", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

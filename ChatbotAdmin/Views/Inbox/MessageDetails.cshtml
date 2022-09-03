@@ -1,0 +1,26 @@
+﻿@model ChatbotAdmin.Models.ChatMessage
+
+@{
+    ViewData["Title"] = "Message Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <h4>Message</h4>
+    <hr />
+    <br /><br />
+    <div class="row">
+        <div class="col-md-4 text-left p-1"> @Html.DisplayNameFor(model => model.SenderEmail) : @Html.DisplayFor(model => model.SenderEmail)</div>
+        <div class="col-md-4 text-left p-1">@Html.DisplayNameFor(model => model.SenderName) : @Html.DisplayFor(model => model.SenderName)</div>
+        <div class="col-md-4 text-left p-1">@Html.DisplayNameFor(model => model.ReceivedDate) : @Html.DisplayFor(model => model.ReceivedDate)</div>        
+    </div>
+    <div class="row border bg-light p-3">
+        @Html.DisplayFor(model => model.Content)
+    </div>
+    
+<br />
+<div>
+    @Html.ActionLink("Reply", "ReplyChat", new { id = Model.Id }) |
+    @Html.ActionLink("Delete", "DeleteInboxMessage", new { id = Model.Id }) |
+    <a asp-action="Index">Back</a>
+</div>
