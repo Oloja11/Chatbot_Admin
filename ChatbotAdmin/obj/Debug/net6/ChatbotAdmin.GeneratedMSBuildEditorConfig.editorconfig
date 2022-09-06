@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChatbotAdmin
 build_property.RootNamespace = ChatbotAdmin
-build_property.ProjectDir = C:\Project\botService\ChatbotAdmin\ChatbotAdmin\
+build_property.ProjectDir = C:\Users\Oluwagbenga Oloja\Desktop\Chatbot_Administration_Project\Chatbot_Admin\ChatbotAdmin\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Project\botService\ChatbotAdmin\ChatbotAdmin
+build_property.MSBuildProjectDirectory = C:\Users\Oluwagbenga Oloja\Desktop\Chatbot_Administration_Project\Chatbot_Admin\ChatbotAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/ChangePassword.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/Login.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/NewUserDetails.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/NewUserDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxOZXdVc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/Register.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/RetrievePassword.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/RetrievePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXRyaWV2ZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Account/RetrievePasswordSuccess.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Account/RetrievePasswordSuccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXRyaWV2ZVBhc3N3b3JkU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Home/Chat.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Home/Chat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Home/Index.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Home/Privacy.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Inbox/Index.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Inbox/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ib3hcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Inbox/MessageDetails.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Inbox/MessageDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ib3hcTWVzc2FnZURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Inbox/ReplyChat.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Inbox/ReplyChat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ib3hcUmVwbHlDaGF0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Outbox/Index.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Outbox/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3V0Ym94XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Outbox/MessageDetails.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Outbox/MessageDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3V0Ym94XE1lc3NhZ2VEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Shared/Error.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Shared/_Layout.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/User/ChangePassword.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/User/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/_ViewImports.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Project/botService/ChatbotAdmin/ChatbotAdmin/Views/_ViewStart.cshtml]
+[C:/Users/Oluwagbenga Oloja/Desktop/Chatbot_Administration_Project/Chatbot_Admin/ChatbotAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

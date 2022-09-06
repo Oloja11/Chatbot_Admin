@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\botService\\ChatbotAdmin\\ChatbotAdmin\\ChatbotAdmin.csproj": {}
+    "C:\\Users\\Oluwagbenga Oloja\\Desktop\\Chatbot_Administration_Project\\Chatbot_Admin\\ChatbotAdmin\\ChatbotAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Project\\botService\\ChatbotAdmin\\ChatbotAdmin\\ChatbotAdmin.csproj": {
+    "C:\\Users\\Oluwagbenga Oloja\\Desktop\\Chatbot_Administration_Project\\Chatbot_Admin\\ChatbotAdmin\\ChatbotAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\botService\\ChatbotAdmin\\ChatbotAdmin\\ChatbotAdmin.csproj",
+        "projectUniqueName": "C:\\Users\\Oluwagbenga Oloja\\Desktop\\Chatbot_Administration_Project\\Chatbot_Admin\\ChatbotAdmin\\ChatbotAdmin.csproj",
         "projectName": "ChatbotAdmin",
-        "projectPath": "C:\\Project\\botService\\ChatbotAdmin\\ChatbotAdmin\\ChatbotAdmin.csproj",
-        "packagesPath": "C:\\Users\\Wahab Owolabi\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\botService\\ChatbotAdmin\\ChatbotAdmin\\obj\\",
+        "projectPath": "C:\\Users\\Oluwagbenga Oloja\\Desktop\\Chatbot_Administration_Project\\Chatbot_Admin\\ChatbotAdmin\\ChatbotAdmin.csproj",
+        "packagesPath": "C:\\Users\\Oluwagbenga Oloja\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oluwagbenga Oloja\\Desktop\\Chatbot_Administration_Project\\Chatbot_Admin\\ChatbotAdmin\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Wahab Owolabi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Oluwagbenga Oloja\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
