@@ -13,9 +13,13 @@
     <None Remove="Scripts\0005 - default user.sql" />
     <None Remove="Scripts\0012 - password.sql" />
     <None Remove="Scripts\0013 - saveI inquiry.sql" />
+    <None Remove="Scripts\0014 - accommodation and course.sql" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Scripts\0014 - accommodation and course.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Scripts\0001 - inbox.sql">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
