@@ -48,6 +48,8 @@ namespace ClubEnrollment
             services.AddSession();
             services.AddSingleton<IUserManagementRepository, UserManagementRepository>();
             services.AddSingleton<IMessageRepository, MessageRepository>();
+            services.AddSingleton<IAccommodationRepository, AccommodationRepository>();
+            services.AddSingleton<ICourseRepository, CourseRepository>();
             services.AddTransient<ILoginManager, LoginManager>();
             services.AddTransient<UserManagementService>();
             services.AddTransient<MessageService>();

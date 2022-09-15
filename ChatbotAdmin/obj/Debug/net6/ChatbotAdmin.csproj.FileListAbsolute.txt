@@ -549,4 +549,7 @@ C:\Project\botService\ChatbotAdmin\ChatbotAdmin\obj\Debug\net6\ChatbotAdmin.dll
 C:\Project\botService\ChatbotAdmin\ChatbotAdmin\obj\Debug\net6\ref\ChatbotAdmin.dll
 C:\Project\botService\ChatbotAdmin\ChatbotAdmin\obj\Debug\net6\ChatbotAdmin.pdb
 C:\Project\botService\ChatbotAdmin\ChatbotAdmin\obj\Debug\net6\ChatbotAdmin.genruntimeconfig.cache
+C:\Project\botService\ChatbotAdmin\ChatbotAdmin\bin\Debug\net6\Scripts\0016 - course-management.sql
+C:\Project\botService\ChatbotAdmin\ChatbotAdmin\bin\Debug\net6\Scripts\0015 - accommodation-management.sql
+C:\Project\botService\ChatbotAdmin\ChatbotAdmin\bin\Debug\net6\Scripts\0014 - accommodation and course.sql
 C:\Project\botService\ChatbotAdmin\ChatbotAdmin\obj\Debug\net6\refint\ChatbotAdmin.dll
